@@ -1,5 +1,3 @@
-INSERT INTO personas2 (id_persona,nombre,ap,am,email)
-SELECT id_persona,nombre,ap,am,email
-FROM temporal;
-INSERT INTO personas2
-SELECT * FROM temporal;
+INSERT INTO personas (nombre,ap,am,email)
+SELECT nombre,ap,am,email 
+FROM temporal1;
